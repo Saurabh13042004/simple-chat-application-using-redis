@@ -1,0 +1,54 @@
+# Compiled output
+target/
+*.class
+
+# Maven wrapper jar (keep the script, not the binary)
+.mvn/wrapper/maven-wrapper.jar
+
+# Secrets — never commit credentials
+.env
+.env.*
+application-local.properties
+application-secrets.properties
+
+# Logs
+*.log
+logs/
+
+# Windows
+Thumbs.db
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+.kotlin
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
